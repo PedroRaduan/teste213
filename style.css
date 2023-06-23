@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('ta.jpg');
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.every{
+    background-color: white;
+    border-radius: 25px;
+    width: 50vw;
+    height: 85vh;
+    text-align: center;
+    transition: 2s;
+}
+
+
+img{
+    width: 50%;
+}
+
+.title{
+    font-size: 3rem;
+}
+
+.dois{
+    display: flex;
+    width: 90%;
+    text-align: center;
+    justify-content:space-between;
+    height: 100%;
+    margin-top: 15%;
+}
+
+.divs{
+    width: 40%;
+    height: 40vh;
+    background-color: #f7f5f5;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.subtitle{
+    font-size: 2rem;
+}
+
+.btn{
+    width: 50%;
+    height: 45px;
+    margin-top: 10%;
+    border-style: none;
+    background-color: lightblue;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.e{
+    margin-top: 5%;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 1500px){
+    .every{
+        width: 70vw;
+    }
+    .dois{
+        height: 100%;
+    }
+    .divs{
+        height: 45vh;
+        align-items: center;
+    }
+}
+
+
+
+@media only screen and (max-width: 1500px){
+    .every{
+        width: 70vw;
+    }
+    .dois{
+        height: 100%;
+    }
+    .divs{
+        height: 45vh;
+        align-items: center;
+    }
+}
+
+
+@media only screen and (max-width: 700px){
+    .dois{
+        display: block;
+
+        align-items: center;
+        
+    }
+    .every{
+        width: 100vw;
+        height: 100vh;
+        background: rgb(63,94,251);
+        background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+        border-radius:  0px;
+    }
+    .divs{
+        height: 40vh;
+        width: 75vw;
+        margin-left: 9%;
+        margin-bottom: 3.5%;
+    }
+    .title{
+        color: white;
+    }
+}
